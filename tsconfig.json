@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "es2023",
     "module": "esnext",
-    "lib": ["ES2023", "DOM"],
-    "types": ["vite/client"],
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client", "dom-serial"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -12,7 +12,7 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-
+    "typeRoots": ["./node_modules/@types"],
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
