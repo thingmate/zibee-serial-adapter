@@ -10,6 +10,7 @@ Implement a TypeScript class API that creates a Zigbee adapter from a **SONOFF Z
 ## Hardware Context
 - **SoC / RF**: TI CC2652P (Zigbee coordinator firmware, e.g. Z-Stack 3.x).
 - **USB-to-UART**: Silicon Labs CP2102N.
+- Pre-flashed with Z-Stack 3.x.0 coordinator firmware
 - Typical baud rate for Z-Stack: **115200** (check firmware docs if changing).
 
 ## Tech Stack
