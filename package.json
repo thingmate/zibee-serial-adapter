@@ -9,11 +9,16 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-proposal-import-defer": "^7.29.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.29.7",
     "@types/dom-serial": "^1.0.6",
+    "es-module-shims": "^2.8.1",
     "prettier": "^3.8.3",
     "prettier-plugin-organize-imports": "^4.3.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.0.12"
+    "typescript": "~6.0.3",
+    "vite": "^8.0.14",
+    "vite-plugin-babel": "^1.7.3"
   },
   "packageManager": "yarn@4.15.0"
 }
